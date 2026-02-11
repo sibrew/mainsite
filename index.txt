@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Sibrew Technologies — Technology with a Difference" />
+  <title>Sibrew Technologies</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Arial, sans-serif;
+      line-height: 1.55;
+      padding: 48px 18px;
+      max-width: 860px;
+      margin-inline: auto;
+    }
+    header { margin-bottom: 28px; }
+    h1 { margin: 0 0 8px 0; font-size: 2.2rem; letter-spacing: 0.2px; }
+    .tagline { margin: 0; font-size: 1.1rem; opacity: 0.8; }
+    main { margin-top: 18px; }
+    .card {
+      border: 1px solid currentColor;
+      border-radius: 12px;
+      padding: 18px;
+      opacity: 0.95;
+    }
+    a { color: inherit; }
+    footer { margin-top: 28px; font-size: 0.95rem; opacity: 0.75; }
+    .small { font-size: 0.95rem; opacity: 0.85; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Sibrew Technologies</h1>
+    <p class="tagline">Technology with a Difference</p>
+  </header>
+
+  <main class="card">
+    <p>
+      Sibrew Technologies designs and builds practical, reliable technology solutions
+      focused on simplicity, longevity, and real-world usefulness.
+    </p>
+    <p>
+      From custom software to integrated hardware systems, the goal is straightforward:
+      technology that works for people, not the other way around.
+    </p>
+
+    <p class="small">
+      Contact: <a href="mailto:you@sibrew.com">you@sibrew.com</a>
+    </p>
+  </main>
+
+  <footer>
+    © <span id="y"></span> Sibrew Technologies
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
